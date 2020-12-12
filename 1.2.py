@@ -5,4 +5,4 @@ user_input = int(input('Введите время в секундах: '))
 hours = user_input // 3600
 minutes = user_input % 3600 // 60
 seconds = user_input % 60
-print(hours(), ':', minutes, ':', seconds)
+print(hours(00), ':', minutes, ':', seconds)
