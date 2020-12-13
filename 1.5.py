@@ -9,5 +9,4 @@ if a > b:
 else:
     print('У Вас убыток: ', income)
 print('Соотношение прибыли в издержкам: ', coeff)
-print('Прибыль на 1 сотрудника: ', person_income)
-ю
+print('Прибыль на 1 сотрудника: ', float('{:.2f}'.format(person_income)))
