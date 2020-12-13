@@ -10,3 +10,4 @@ else:
     print('У Вас убыток: ', income)
 print('Соотношение прибыли в издержкам: ', coeff)
 print('Прибыль на 1 сотрудника: ', person_income)
+ю
