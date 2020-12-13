@@ -2,19 +2,14 @@
 # самую большую цифру в числе. Для решения используйте
 # цикл while и арифметические операции.
 
-# n = int(input('целое положительное число: '))
-
-# a = []
-# a.append(n)
-# a.split(n)
-# def max_in_list(lst):
-# ...     assert lst
-# ...     m = lst[0]
-# ...     for i in lst:
-# ...         if i > m:
-# ...             m = i
-# ...     return m
-
-
-print(' '.join(input('целое положительное число: ')))
-
+n = int(input("Введите целое положительное число "))
+max = n % 10
+while n >= 1:
+    n = n // 10
+    if n % 10 > max:
+        max = n % 10
+    if n > 9:
+        continue
+    else:
+        print("Максимальное цифра: ", max)
+        break
