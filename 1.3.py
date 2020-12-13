@@ -1,3 +1,9 @@
+a = []
 n = int(input('Введите число: '))
-result = n + (n ** 2) + (n ** 3)
-print(result, f"{n + n * n + n * n * n}")
+
+a.append(n)
+b = n * n * n
+# result = n + a + b
+# print(result, f"{n + n * n + n * n * n}")
+print(a)
+print(b)
