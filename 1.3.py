@@ -1,7 +1,11 @@
-n = int(input('Введите число: '))
-a = str(n)
-b = a + a
-c = a + a + a
-print(f"{n + int(b) + int(c)}")
+n = str(input('Введите число: '))
+
+a = n + n
+b = n + n + n
+r = int(n) + int(a) + int(b)
+print(a)
 print(b)
-print(c)
+print(r)
+
+# I don`t know, but it works!
+print(f"{int(n) + int(n + n) + int(n + n + n)}")
