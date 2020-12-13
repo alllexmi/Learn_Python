@@ -3,7 +3,7 @@ b = int(input('Введите издержки: '))
 c = int(input('Введите количество сотрудников: '))
 income = a - b
 coeff = a / b
-person_income = c / income
+person_income = income / c
 if a > b:
     print('У Вас прибыль: ', income)
 else:
