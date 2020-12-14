@@ -12,8 +12,12 @@ a.append(None)
 # print(a)
 # a.reverse()
 print(type(a))
+
+
 def my_type(el):
     for el in range(len(a)):
         print(type(a[el]))
     return
+
+
 my_type(a)
